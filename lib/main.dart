@@ -49,12 +49,21 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    // widget text section
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Candi Prambanan adalah kompleks candi Hindu terbesar di Indonesia yang terletak di dekat Yogyakarta. Dibangun pada abad ke-9 Masehi, candi ini terkenal dengan arsitektur tinggi menjulang dan relief cerita Ramayana yang indah. Kompleks ini didedikasikan untuk Trimurti: Brahma, Wisnu, dan Siwa, serta menjadi salah satu warisan budaya dunia UNESCO yang menarik wisatawan dari seluruh dunia.',
+        softWrap: true,
+      ),
+    );
+
     return MaterialApp(
       title: 'Flutter layout: Nama dan NIM Anda',
       home: Scaffold(
         appBar: AppBar(title: const Text('Dimas Setyo Nugroho(2341760188)')),
         // body: const Center(child: Text('Hello World')),
-        body: Column(children: [titleSection, buttonSection]),
+        body: Column(children: [titleSection, buttonSection, textSection]),
       ),
     );
   }

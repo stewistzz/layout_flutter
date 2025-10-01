@@ -18,6 +18,8 @@ samples, guidance on mobile development, and a full API reference.
 Dokumentasi Flutter Project
 1. Praktikum 1: Membangun Layout di Flutter
 ![Alt Text](images/output_praktikum_1.jpg)
-1. Praktikum 1: Membangun Layout di Flutter
+2. Praktikum 2 : Implemenntasi Button Row
 ![Alt Text](images/implementasi_button_row.png)
+3. Praktikum 3 : Implemenntasi Text Section
+![Alt Text](images/output_praktikum_3.png)
 

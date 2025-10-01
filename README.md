@@ -22,4 +22,5 @@ Dokumentasi Flutter Project
 ![Alt Text](images/implementasi_button_row.png)
 3. Praktikum 3 : Implemenntasi Text Section
 ![Alt Text](images/output_praktikum_3.png)
-
+4. Praktikum 4 : Implemenntasi Image Section
+![Alt Text](images/output_praktikum_4.png)

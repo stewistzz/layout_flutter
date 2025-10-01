@@ -20,12 +20,12 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Wisata Candi Prambanan',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
                 Text(
-                  'Batu, Malang, Indonesia',
+                  'Yogyakarta, Indonesia',
                   style: TextStyle(color: Colors.grey[500]),
                 ),
               ],
@@ -63,7 +63,19 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: const Text('Dimas Setyo Nugroho(2341760188)')),
         // body: const Center(child: Text('Hello World')),
-        body: Column(children: [titleSection, buttonSection, textSection]),
+        body: ListView(
+          children: [
+            Image.asset(
+              'images/prambanan.jpg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
+            titleSection,
+            buttonSection,
+            textSection,
+          ],
+        ),
       ),
     );
   }
